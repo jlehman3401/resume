@@ -1,0 +1,182 @@
+%-------------------------
+% Resume in Latex
+% Author : Jonathan Lehman
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://github.com/jlehman3401/}{\Large Jonathan Lehman}} & Email : \href{mailto:lehman.255@gmail.com}{lehman.255@gmail.com}\\
+  \href{http://linkedin.com/in/jonathan-lehman-4290bb88}{http://linkedin.com/in/jonathan-lehman-4290bb88}\\
+  \href{http://github.com/jlehman3401/}{http://www.github.com/jlehman3401}  & Mobile : +1-614-421-8982 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Springboard}{Remote}
+      {Data Analytics for Business}{Jan. 2018 -- May. 2018}
+      \resumeItemListStart
+        \resumeItem{Business Concepts}{Forecasting, Customer Segmentation, Root Cause Analysis, Funnel Analysis, Customer Lifetime Value}
+        \resumeItem{Software Tools}{MS Excel, Tableau, SQL}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {The Ohio State University}{Columbus, OH}
+      {Economics, BA.}{Sept. 2013 -- Dec. 2015}
+       \resumeItemListStart
+      \resumeItem{subjects}{Healthcare Economics, Industrial Organization, Money and Banking, Statistics}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Columbus State Community College}{Columbus, OH}
+      {Associates of Arts}{Jan. 2010 -- Dec. 2013}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+	  {McGraw Hill Education}{Columbus, OH}
+	  {Content Coordinator}{June 2019 - Present}
+	  \resumeItemListStart
+	    \resumeItem{File Management}{data entry, tracking products, licenses, invoices}
+	  \resumeItem{Tools}{MS Excel, Word; SmartSheets, Database Interface}
+	  \resumeItemListEnd
+
+
+    \resumeSubheading
+      {One Class / EasyKe}{Remote}
+      {Tutor}{Nov. 2018 - Present}
+      \resumeItemListStart
+		\resumeItem{Instructing}{Responded to questions from international university students on topics of Business, Economics and Statistics}
+	  \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Donatos Pizza}{Ohio State Campus Location}
+      {Driver}{Nov. 2013 - Present}
+      \resumeItemListStart
+        \resumeItem{Delivery}{prepared food orders according to invoice and managed cash, credit and purchase order payments}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {MXD Group}{Columbus,OH}
+      {Scheduler}{Sept. 2012 - Nov. 2013}
+      \resumeItemListStart
+        \resumeItem{Data Entry}{Entered schedules, comments, updates, corrections into iDirect order management system}
+        \resumeItem{Accuracy}{Verified contact information, customer location details and client requirements for shipping}
+        \resumeItem{Communication}{Maintained accuracy on shipments and orders, corresponded with internal and client members to address conflicts}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Donatos Pizza}{Upper Arlington, OH}
+      {Shift Supervisor}{Oct. 2009 and Feb. 2013}
+      \resumeItemListStart
+        \resumeItem{Managed staff}{procedure, safety, cash management and labor hours}
+        \resumeItem{Inventory}{Tracked nightly inventory on critical items, and weekly inventory on full store}
+        \resumeItem{Order Entry and Reception}{Placed orders for supply and ingredients by forecasts and build-to; received trucks}
+        \resumeItem{Reporting}{Cost-of-goods-sold, labor, cash balance, food cost and other metrics}
+        \resumeItem{Training}{Instructed new hires on food preparation, accuracy and safety}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects / Courses}
+  \resumeSubHeadingListStart
+  \resumeSubItem{Donatos EDA Project}
+  {Collected information on orders, tips and working hours while delivering for Donatos during period of May 2016 to May 2019 and performed data cleaning, munging and Exploratory Data Analysis on resulting dataset.}
+  
+  \resumeSubItem{HarvardX (edX.org) PH526x: Using Python for Research}
+  {Trained in functional programming in Python, using libraries like Numpy, pandas, sci-kit-learn, networkx, and others}
+  \resumeSubHeadingListEnd
+  
+
+
+%--------Software Tools------------
+\section{Software Tools}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{:Python, R, SQL, markdown}
+      \hfill
+      \textbf{Tools}{:MS Excel, Jupyter, RStudio}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
